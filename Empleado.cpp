@@ -10,7 +10,7 @@ class Empleado : Persona{
 	public :
 		Empleado (){
 		}
-		Empleado (string nom,string ape,string dir,int tel,string fn,string n,string cod,string pue) : Persona(nom,ape,dir,tel,fn){
+		Empleado (string nom,string ape,string dir,int tel,string fn,string cod,string pue) : Persona(nom,ape,dir,tel,fn){
 			codigo = cod;
 			puesto = pue;
 		}
