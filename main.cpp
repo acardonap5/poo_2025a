@@ -19,5 +19,9 @@ using namespace std;
  	cin>>telefono;
  	Cliente objc = Cliente(nombres,apellidos,direccion,telefono,fecha_nacimiento,nit);
  	objc.leer();
+ 	cout<<"Ingrese Nit a Modificar:";
+ 	cin>>nit;
+ 	objc.setNit(nit);
+ 	cout<<objc.getNit()<<","<<objc.getNombres()<<" "<<objc.getApellidos()<<endl;
  	
  }
